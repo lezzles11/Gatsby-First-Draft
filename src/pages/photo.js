@@ -2,7 +2,9 @@ import React from "react"
 import Container from "../components/Container"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Spotify from "../components/photoComponents/Spotify"
+import PhotoLeft from "../components/photoLeft"
+import PhotoRight from "../components/photoRight"
 const json = [
   {
     id: 1,
@@ -19,55 +21,18 @@ const json = [
     caption: "blup blup",
   },
 ]
+const captions = ["hi", "whatsup"]
 
-function PhotoLeft({ leftTitle, leftText, leftPhoto, leftOverlay }) {
-  return (
-    <div style={{ width: "100%", height: "200px" }} className="row">
-      <div className="col">
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className="text-center">
-          <h5 className="card-title">{leftTitle}</h5>
-          <p className="card-text">{leftText}</p>
-        </div>
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
-
-      <div className="col">
-        <div className="view overlay">
-          <div className="mask flex-center rgba-green-slight">
-            <p className="white-text">{leftOverlay}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-function TestLayout() {
-  return (
-    <div>
-      <PhotoLeft
-        leftTitle="I want to live on a farm in denmark or something"
-        leftPhoto="areyoupayingattention.png"
-        leftOverlay="comfort in rice and eggs"
-      />
-    </div>
-  )
-}
 export default function Photo() {
   return (
     <div>
-      <TestLayout />
+      <div className="row">
+        <PhotoRight title="title" text="text" overlayText="overlay" />
+      </div>{" "}
+      <br />
+      <div className="row">
+        <PhotoLeft title="title" text="text" overlayText="overlay" />
+      </div>
     </div>
   )
 }
