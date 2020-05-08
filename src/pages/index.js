@@ -47,12 +47,12 @@ function Roses({ imageSize }) {
   return (
     <div className="row">
       <div className="col">
+        <Card text="are you paying attention?" />
+      </div>
+      <div className="col">
         <div style={imageSize}>
           <Spotify />
         </div>
-      </div>
-      <div className="col">
-        <Card text="are you paying attention?" />
       </div>
     </div>
   )
@@ -68,7 +68,10 @@ function Night({ imageSize }) {
           <br />
           <br />
           <br />
-          <h3 className="font11 card-title text-center">are you?</h3>
+          <br />
+          <h3 className="font11 card-title text-center">
+            Financial Independence!
+          </h3>
         </div>
       </div>
       <div className="col">
@@ -80,137 +83,72 @@ function Night({ imageSize }) {
   )
 }
 
-function Bench({ imageSize }) {
+function Organizing({ imageSize }) {
   return (
     <div className="row">
       <div className="col">
-        <div style={imageSize}>
-          <ImNotReallySure />
-        </div>
-      </div>
-      <div className="col">
         <div className="card-body">
+          <br /> <br /> <br /> <br /> <br />
+          <br /> <br />
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-
-          <br />
-          <h3 className="font17 card-title text-center">I'm not really sure</h3>
+          <h3 className="font17 card-title text-center">
+            is this what it means to be more true to myself and follow what I
+            want
+          </h3>
+        </div>
+      </div>{" "}
+      <div className="col">
+        <div style={imageSize}>
+          {" "}
+          <BeingTrueToMyself />
         </div>
       </div>
     </div>
   )
 }
 
-function StevenAndKitty({ imageSize }) {
+function StevenDyingHair({ imageSize }) {
   return (
     <div className="row">
       <div className="col">
         <div style={imageSize}>
           {" "}
-          <DoYouNeedToBeHappier />
+          <FlirtingWithBf />
         </div>
       </div>
       <div className="col">
         <div className="card-body">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-
-          <br />
-          <h3 className="font17 card-title text-center">I'm not really sure</h3>
-        </div>
-      </div>
-    </div>
-  )
-}
-function Granola({ imageSize }) {
-  return (
-    <div className="row">
-      <div className="col">
-        <div className="card-body">
-          <br />
-          <br />
-
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <h3 className="font11 card-title text-center">
-            I mean, we can figure it out.
+          <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+          <br /> <br />
+          <h3 className="font17 card-title text-center">
+            Flirting with my boyfriend~
           </h3>
         </div>
       </div>
-      <div className="col">
-        <div style={imageSize}>
-          <IMeanWeCanFigureItOut />
-        </div>
-      </div>
     </div>
   )
 }
-
-function KittySleeping({ imageSize }) {
+function PrettyTree({ imageSize }) {
   return (
     <div className="row">
       <div className="col">
+        <div style={imageSize}>
+          {" "}
+          <IfYouCare />
+        </div>
+      </div>
+      <div className="col">
         <div className="card-body">
-          <br />
-          <br />
-
-          <br />
-          <br />
-          <br />
-          <h3 className="font11 card-title text-center">
-            Dude, he might just be sleeping
+          <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+          <h3 className="font17 card-title text-center">
+            if you care about it, you care about it.{" "}
           </h3>
         </div>
       </div>
-      <div className="col">
-        <div style={imageSize}>
-          <DudeHeMightJustBeSleeping />
-        </div>
-      </div>
     </div>
   )
 }
-function ImageLeft({ imageSize }) {
-  return (
-    <div className="row">
-      <div className="col">
-        <div style={imageSize}>
-          <ImNotReallySure />
-        </div>
-      </div>
-      <div className="col">
-        <div className="card-body">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-
-          <br />
-          <h3 className="font17 card-title text-center">I'm not really sure</h3>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-function ImageRight({ imageSize }) {
+function Baking({ imageSize }) {
   return (
     <div className="row">
       <div className="col">
@@ -219,84 +157,85 @@ function ImageRight({ imageSize }) {
           <br />
           <br />
           <br />
-          <h3 className="font11 card-title text-center">are you?</h3>
-        </div>
-      </div>
-      <div className="col">
-        <div style={imageSize}>
-          <FinancialIndependence />
-        </div>
-      </div>
-    </div>
-  )
-}
-
-function KittyHead({ imageSize }) {
-  return (
-    <div className="row">
-      <div className="col">
-        <div className="card-body">
-          <br />
-          <br />
-          <br />
-          <br />
-          <h3 className="font11 card-title text-center">are you?</h3>
-        </div>
-      </div>
-      <div className="col">
-        <div style={imageSize}>
-          <TryingToDoAlot />
-        </div>
-      </div>
-    </div>
-  )
-}
-function Bamboo({ imageSize }) {
-  return (
-    <div className="row">
-      <div className="col">
-        <div style={imageSize}>
-          <TheresSomePsychological />
-        </div>
-      </div>
-      <div className="col">
-        <div className="card-body">
           <br />
           <br />
           <br />
           <br />
           <br />
-          <br />
-          <br />
-
-          <br />
-          <h3 className="font17 card-title text-center">I'm not really sure</h3>
-        </div>
-      </div>
-    </div>
-  )
-}
-function Tree({ imageSize }) {
-  return (
-    <div className="row">
-      <div className="col">
-        <div className="card-body">
-          <br />
-          <br />
-          <br />
-          <br />
-          <h3 className="font11 card-title text-center">are you?</h3>
+          <h3 className="font17 card-title text-center">
+            just being more myself, whatever that means.{" "}
+          </h3>
         </div>
       </div>
       <div className="col">
         <div style={imageSize}>
           {" "}
-          <YouAreDoingGreat />
+          <JustBeingMoreMyself />
         </div>
       </div>
     </div>
   )
 }
+
+function StevenSandwich({ imageSize }) {
+  return (
+    <div className="row">
+      <div className="col">
+        <div style={imageSize}>
+          {" "}
+          <JustTakeItEasy />
+        </div>
+      </div>
+      <div className="col">
+        <div className="card-body">
+          <br /> <br /> <br /> <br />
+          <h3 className="font17 card-title text-center">
+            just like, take it easy.
+          </h3>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Candles({ imageSize }) {
+  return (
+    <div className="row">
+      <div className="col">
+        <div style={imageSize}>
+          {" "}
+          <JustLikeBreathe />
+        </div>
+      </div>
+      <div className="col">
+        <div className="card-body">
+          <br /> <br /> <br />
+          <h3 className="font17 card-title text-center">Just like, breathe.</h3>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Siblings({ imageSize }) {
+  return (
+    <div className="row">
+      <div className="col">
+        <div style={imageSize}>
+          {" "}
+          <JustLikeWhatever />
+        </div>
+      </div>
+      <div className="col">
+        <div className="card-body">
+          <br />
+          <h3 className="font17 card-title text-center">I'm not really sure</h3>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function IndexPage() {
   const imageSize = {
     maxWidth: "600px",
@@ -305,35 +244,20 @@ function IndexPage() {
   return (
     <Layout>
       <SEO title="Home" />
+      <h1 className="font6">when it gets dark</h1>
+
       <Roses imageSize={imageSize} />
+      <PrettyTree imageSize={imageSize} />
       <Night imageSize={imageSize} />
-      <StevenAndKitty imageSize={imageSize} />
-      <Granola imageSize={imageSize} />
-      <Bench imageSize={imageSize} />
-      <Tree imageSize={imageSize} />
-      <Bamboo imageSize={imageSize} />
-      <KittyHead imageSize={imageSize} />
-      <KittySleeping imageSize={imageSize} />
-      <BeingTrueToMyself />
-      {/* TODO: make sure that you write content here */}
-      you write content here
-      <h5>The beauty of everyday things</h5>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-      <butYouCanFuckThem />
-      <DudeYoureDoingGreat />
-      <ButYouCanFuckThem />
-      <FarmInDenmark />
-      <FlirtingWithBf />
-      <GetBetterAtShit />
-      <IfYouCare />
-      <IMeanYouHaveYourOwnShit />
-      <ImJustNervous />
-      <IWantToLiveOnAFarm />
-      <JustBeingMoreMyself />
-      <JustLikeBreathe /> <JustLikeWhatever /> <JustTakeItEasy />{" "}
-      <LoveAsASkill />
+      <Organizing imageSize={imageSize} />
+      <StevenDyingHair imageSize={imageSize} />
+
+      <Baking imageSize={imageSize} />
+
+      <Candles imageSize={imageSize} />
+      <Siblings imageSize={imageSize} />
+      <StevenSandwich imageSize={imageSize} />
+
       <Link to="/page-2/">Go to page 2</Link>
       <Link to="/about"> About</Link>
       <Link to="/photo">Photo</Link>

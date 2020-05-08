@@ -43,6 +43,13 @@ function Bench({ imageSize }) {
 function StevenAndKitty({ imageSize }) {
   return (
     <div className="row">
+      {" "}
+      <div className="col">
+        <div style={imageSize}>
+          {" "}
+          <DoYouNeedToBeHappier />
+        </div>
+      </div>
       <div className="col">
         <div className="card-body">
           <br />
@@ -57,12 +64,6 @@ function StevenAndKitty({ imageSize }) {
           </h3>
         </div>
       </div>{" "}
-      <div className="col">
-        <div style={imageSize}>
-          {" "}
-          <DoYouNeedToBeHappier />
-        </div>
-      </div>
     </div>
   )
 }
@@ -99,11 +100,6 @@ function KittyHead({ imageSize }) {
     <div className="row">
       {" "}
       <div className="col">
-        <div style={imageSize}>
-          <TryingToDoAlot />
-        </div>
-      </div>
-      <div className="col">
         <div className="card-body">
           <br />
           <br />
@@ -113,6 +109,11 @@ function KittyHead({ imageSize }) {
           <h3 className="font11 card-title text-center">
             girl, it seems like you’re trying to do a lot.
           </h3>
+        </div>
+      </div>{" "}
+      <div className="col">
+        <div style={imageSize}>
+          <TryingToDoAlot />
         </div>
       </div>
     </div>
@@ -177,13 +178,13 @@ function MorningPage() {
   }
   return (
     <Layout>
-      <SEO title="Morning" />
+      <SEO title="Morning" /> <h1 className="font6">the pitter patter hours</h1>
       <Granola imageSize={imageSize} />
       <Bench imageSize={imageSize} />
       <Tree imageSize={imageSize} />
       <Bamboo imageSize={imageSize} />
-      <StevenAndKitty imageSize={imageSize} />
       <KittyHead imageSize={imageSize} />
+      <StevenAndKitty imageSize={imageSize} />
       <Link to="/page-2/">Go to page 2</Link>
       <Link to="/about"> About</Link>
       <Link to="/photo">Photo</Link>

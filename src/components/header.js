@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
       </h2>
       <h2 className="font6" style={{ padding: 10 }}>
         <Link
-          to="/about"
+          to="/afternoon"
           style={{
             color: `darkBlue`,
             textDecoration: `none`,
@@ -53,7 +53,7 @@ const Header = ({ siteTitle }) => (
       </h2>
       <h2 className="font6" style={{ padding: 10 }}>
         <Link
-          to="/about"
+          to="/night"
           style={{
             color: `darkBlue`,
             textDecoration: `none`,
