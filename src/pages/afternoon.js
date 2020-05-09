@@ -235,9 +235,6 @@ function AfternoonPage() {
       <KittySleeping imageSize={imageSize} />
       <ForgetIt imageSize={imageSize} />
       <Notecard imageSize={imageSize} />
-      <Link to="/page-2/">Go to page 2</Link>
-      <Link to="/about"> About</Link>
-      <Link to="/photo">Photo</Link>
     </Layout>
   )
 }

@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import Navbar from "../components/navbar"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -136,6 +135,13 @@ function PrettyTree({ imageSize }) {
 function Baking({ imageSize }) {
   return (
     <div className="row">
+      {" "}
+      <div className="col">
+        <div style={imageSize}>
+          {" "}
+          <JustBeingMoreMyself />
+        </div>
+      </div>
       <div className="col">
         <div className="card-body">
           <br />
@@ -150,12 +156,6 @@ function Baking({ imageSize }) {
           <h3 className="font17 card-title text-center">
             just being more myself, whatever that means.{" "}
           </h3>
-        </div>
-      </div>
-      <div className="col">
-        <div style={imageSize}>
-          {" "}
-          <JustBeingMoreMyself />
         </div>
       </div>
     </div>
@@ -187,15 +187,15 @@ function Candles({ imageSize }) {
   return (
     <div className="row">
       <div className="col">
-        <div style={imageSize}>
-          {" "}
-          <JustLikeBreathe />
-        </div>
-      </div>
-      <div className="col">
         <div className="card-body">
           <br /> <br /> <br />
           <h3 className="font17 card-title text-center">Just like, breathe.</h3>
+        </div>
+      </div>{" "}
+      <div className="col">
+        <div style={imageSize}>
+          {" "}
+          <JustLikeBreathe />
         </div>
       </div>
     </div>
@@ -234,18 +234,12 @@ function NightPage() {
       <Roses imageSize={imageSize} />
       <PrettyTree imageSize={imageSize} />
       <WalkingNight imageSize={imageSize} />
-      <Organizing imageSize={imageSize} />
       <StevenDyingHair imageSize={imageSize} />
+      <Organizing imageSize={imageSize} />
 
       <Baking imageSize={imageSize} />
 
       <Candles imageSize={imageSize} />
-      <Siblings imageSize={imageSize} />
-      <StevenSandwich imageSize={imageSize} />
-
-      <Link to="/page-2/">Go to page 2</Link>
-      <Link to="/about"> About</Link>
-      <Link to="/photo">Photo</Link>
     </Layout>
   )
 }

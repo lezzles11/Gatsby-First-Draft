@@ -185,9 +185,6 @@ function MorningPage() {
       <Bamboo imageSize={imageSize} />
       <KittyHead imageSize={imageSize} />
       <StevenAndKitty imageSize={imageSize} />
-      <Link to="/page-2/">Go to page 2</Link>
-      <Link to="/about"> About</Link>
-      <Link to="/photo">Photo</Link>
     </Layout>
   )
 }
