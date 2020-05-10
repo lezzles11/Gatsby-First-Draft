@@ -2,20 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
-function Card({ text }) {
-  return (
-    <div className="card-body">
-      <br />
-      <br />
-
-      <br />
-
-      <br />
-      <h3 className="font17 card-title text-center">{text}</h3>
-    </div>
-  )
-}
+import "./index.css"
 
 function IndexPage() {
   const imageSize = {
@@ -24,6 +11,14 @@ function IndexPage() {
   return (
     <Layout>
       <SEO title="Home" />
+      <div className="container">
+        <br />
+        <br />
+        <br />
+        <h1>hi.</h1>
+        <button type="btn button waves-outline">hi</button>
+        <h2 className="font11">we all feel lonely</h2>
+      </div>
     </Layout>
   )
 }

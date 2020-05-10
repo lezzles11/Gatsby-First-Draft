@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Hepta+Slab|Libre+Caslon+Display|Merriweather|Playfair+Display|Playfair+Display+SC|Roboto+Mono|Sacramento|Slabo+27px&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Arapey|Bentham|Beth+Ellen|Crimson+Text|Dancing+Script|David+Libre|Domine|Gamja+Flower|Hi+Melody|Homemade+Apple|Indie+Flower|Josefin+Sans|Laila|Libre+Franklin|Livvic|Lobster|Nanum+Gothic|Overlock|PT+Sans+Narrow|Pacifico|Quattrocento|Sacramento|Shadows+Into+Light|Spectral|Sue+Ellen+Francisco|Suranna|Unna&display=swap');
+
+.font1 {
+	font-family: "Hepta Slab", serif;
+}
+
+.font2 {
+	font-family: "Merriweather", serif;
+}
+
+.font3 {
+	font-family: "Roboto Mono", monospace;
+}
+
+.font4 {
+	font-family: "Slabo 27px", serif;
+}
+
+.font5 {
+	font-family: "Playfair Display", serif;
+}
+
+.font6 {
+	font-family: "Crimson Text", serif;
+}
+
+.font7 {
+	font-family: "Libre Caslon Display", serif;
+}
+
+.font8 {
+	font-family: "Sacramento", cursive;
+}
+
+.font9 {
+	font-family: "Playfair Display SC", serif;
+}
+
+.font10 {
+	font-family: 'Livvic', sans-serif;
+}
+
+.font11 {
+	font-family: 'Crimson Text', serif;
+}
+
+.font12 {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.font13 {
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.font14 {
+	font-family: 'Dancing Script', cursive;
+}
+
+.font15 {
+	font-family: 'Quattrocento', serif;
+}
+
+.font16 {
+	font-family: 'Arapey', serif;
+}
+
+.font17 {
+	font-family: 'Spectral', serif;
+}
+
+.font18 {
+	font-family: 'Unna', serif;
+}
+
+.font19 {
+	font-family: 'Homemade Apple', cursive;
+}
+
+.font20 {
+	font-family: 'Gamja Flower', cursive;
+}
+
+.font21 {
+	font-family: 'Hi Melody', cursive;
+}
+
+.font22 {
+	font-family: 'Overlock', cursive;
+}
+
+.font23 {
+	font-family: 'Suranna', serif;
+}
