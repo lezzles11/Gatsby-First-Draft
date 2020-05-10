@@ -1,3 +1,4 @@
+ <span style="font-family:Papyrus; font-size:4em;">
 # Small Pleasures are a Big Deal  
 Vision: The purpose of this project is to practice using gatsby, as well as ensure that I remind myself of the daily pleasures in everyday life. 
 
@@ -53,3 +54,4 @@ bash
 ### What is one thing that I learned from doing this project? 
 1. Make sure to block chunks of time to code (3-4 hours at a time) 
 2. 
+</span>
