@@ -22,7 +22,8 @@ May 10: F
 
 ### Climax and 
 Installing 
-`` `bash
+```
+bash
 ┌───────────────┬────────────────────────────────── ─────────────────────────────┐
 │ High │ Arbitrary File Overwrite │
 ├───────────────┼────────────────────────────────── ─────────────────────────────┤
@@ -47,7 +48,7 @@ Installing
 ├───────────────┼────────────────────────────────── ─────────────────────────────┤
 │ More info │ https://npmjs.com/advisories/886 │
 └───────────────┴────────────────────────────────── ─────────────────────────────┘
-`` `
+```
 
 ### What is one thing that I learned from doing this project? 
 1. Make sure to block chunks of time to code (3-4 hours at a time) 
