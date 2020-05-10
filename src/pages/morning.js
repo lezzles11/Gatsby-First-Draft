@@ -177,7 +177,13 @@ function MorningPage() {
     marginBotton: "1.45rem",
   }
   return (
-    <Layout>
+    <div
+      style={{
+        margin: `0 auto`,
+        maxWidth: 1000,
+        padding: `0 1.0875rem 1.45rem`,
+      }}
+    >
       <SEO title="Morning" /> <h1 className="font6">the pitter patter hours</h1>
       <Granola imageSize={imageSize} />
       <Bench imageSize={imageSize} />
@@ -185,7 +191,7 @@ function MorningPage() {
       <Bamboo imageSize={imageSize} />
       <KittyHead imageSize={imageSize} />
       <StevenAndKitty imageSize={imageSize} />
-    </Layout>
+    </div>
   )
 }
 

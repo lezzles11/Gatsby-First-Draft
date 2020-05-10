@@ -221,8 +221,13 @@ function AfternoonPage() {
     marginBotton: "1.45rem",
   }
   return (
-    <Layout>
-      <SEO title="Afternoon" />
+    <div
+      style={{
+        margin: `0 auto`,
+        maxWidth: 1000,
+        padding: `0 1.0875rem 1.45rem`,
+      }}
+    >
       <h1 className="font6">the afternoon</h1>
       <br />
       <Poster imageSize={imageSize} />
@@ -235,7 +240,7 @@ function AfternoonPage() {
       <KittySleeping imageSize={imageSize} />
       <ForgetIt imageSize={imageSize} />
       <Notecard imageSize={imageSize} />
-    </Layout>
+    </div>
   )
 }
 

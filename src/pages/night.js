@@ -227,8 +227,13 @@ function NightPage() {
     marginBotton: "1.45rem",
   }
   return (
-    <Layout>
-      <SEO title="Home" />
+    <div
+      style={{
+        margin: `0 auto`,
+        maxWidth: 1000,
+        padding: `0 1.0875rem 1.45rem`,
+      }}
+    >
       <h1 className="font6">when it gets dark</h1>
 
       <Roses imageSize={imageSize} />
@@ -240,7 +245,7 @@ function NightPage() {
       <Baking imageSize={imageSize} />
 
       <Candles imageSize={imageSize} />
-    </Layout>
+    </div>
   )
 }
 

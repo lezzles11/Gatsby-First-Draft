@@ -42,8 +42,16 @@ const Layout = ({ children }) => {
             <div className="col-9"></div>
             <div className="col-3">
               {" "}
+              <iframe
+                src="https://open.spotify.com/embed/track/2AVZJ4u8JOhcYBX5yHGdrX"
+                width="300"
+                height="380"
+                frameborder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>{" "}
               <br />
-              <p style={{ padding: "1px", left: 0, color: "white" }}>
+              <p style={{ padding: "1px", color: "white" }}>
                 {" "}
                 &nbsp;&nbsp;&nbsp;{" "}
                 <span className=" orange darken-3 container">
