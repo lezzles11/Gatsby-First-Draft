@@ -1,16 +1,8 @@
-# Project Name 
-Define goal: 
+# Small Pleasures are a Big Deal  
+Vision: The purpose of this project is to practice using gatsby, as well as ensure that I remind myself of the daily pleasures in everyday life. 
 
 ## Purpose 
-Core Values: 
-The purpose of this project is to learn how to implement algorithms, and ideally doing so by seeing how it applies to my own life in the future. 
-### Values 
-- [ ] Creativity (Combining different strategies together)  
-- [ ] Flexibility
-- [ ] Seeing growth 
-- [ ] Story telling 
-- [ ] Doing what you like 
-- [ ] Controlling my own time and work 
+Vision: The purpose of this project is to practice using gatsby, as well as ensure that I remind myself of the daily pleasures in everyday life. 
 
 ## Story 
 ### Beginning
