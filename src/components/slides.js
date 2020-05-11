@@ -90,7 +90,7 @@ export default function Slides() {
           <button
             className="d-flex justify-content-center"
             style={{ textTransform: "lowercase" }}
-            className="font6 btn btn-outline-dark waves-effect"
+            className="font6 button btn btn-outline-dark waves-effect"
             onClick={() => setSlide(2)}
           >
             hi
@@ -102,7 +102,7 @@ export default function Slides() {
           <Problem />
           <button
             style={{ textTransform: "lowercase" }}
-            className="font6 btn btn-outline-dark waves-effect"
+            className="font6 button btn btn-outline-dark waves-effect"
             onClick={() => setSlide(3)}
           >
             yeah?
@@ -115,7 +115,7 @@ export default function Slides() {
           <Purpose />
           <button
             style={{ textTransform: "lowercase" }}
-            className="font6 btn btn-outline-dark waves-effect"
+            className="font6 button btn btn-outline-dark waves-effect"
             onClick={() => setSlide(4)}
           >
             Earphones are in!
@@ -127,7 +127,7 @@ export default function Slides() {
           <Grateful />
           <button
             style={{ textTransform: "lowercase" }}
-            className="font6 btn btn-outline-dark waves-effect"
+            className="font6 button btn btn-outline-dark waves-effect"
             onClick={() => setSlide(5)}
           >
             let's see how inspired i am after these photos.
