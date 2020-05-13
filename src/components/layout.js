@@ -47,6 +47,7 @@ const Layout = ({ children }) => {
                 width="300"
                 height="380"
                 frameborder="0"
+                title="Spotify"
                 allowtransparency="true"
                 allow="encrypted-media"
               ></iframe>{" "}

@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import MorningPage from "../pages/morning"
 
 function EachSlide({ text }) {
   const style = {
