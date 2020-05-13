@@ -109,15 +109,15 @@ export default function Slides() {
             className="font6 button btn btn-outline-dark waves-effect"
             onClick={() => setSlide(3)}
           >
-            yeah?
+            yeah
           </button>
         </div>
       )}
       {slide === 3 && (
         <div>
-          <button>hi</button>
           <Purpose />
           <button
+            style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
             onClick={() => setSlide(4)}
           >
@@ -133,7 +133,7 @@ export default function Slides() {
             className="font6 button btn btn-outline-dark waves-effect"
             onClick={() => setSlide(5)}
           >
-            let's see how inspired i am after these photos.
+            playing song now, too!
           </button>
         </div>
       )}

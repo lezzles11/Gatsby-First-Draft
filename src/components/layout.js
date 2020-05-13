@@ -43,14 +43,13 @@ const Layout = ({ children }) => {
             <div className="col-3">
               {" "}
               <iframe
-                src="https://open.spotify.com/embed/track/2AVZJ4u8JOhcYBX5yHGdrX"
-                width="300"
-                height="380"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/watch?v=0vH9FjGZ_Oc"
                 frameborder="0"
-                title="Spotify"
-                allowtransparency="true"
-                allow="encrypted-media"
-              ></iframe>{" "}
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
               <br />
               <p style={{ padding: "1px", color: "white" }}>
                 {" "}

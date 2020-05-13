@@ -5,6 +5,7 @@ import MorningPage from "../pages/morning"
 import AfternoonPage from "../pages/afternoon"
 import NightPage from "../pages/night"
 import Slides from "./slides"
+import Video from "./video"
 
 function Header({ siteTitle }) {
   const [page, setPage] = useState(1)
@@ -66,14 +67,10 @@ function Header({ siteTitle }) {
             <div className="col-9"></div>
             <div className="col-3">
               {" "}
-              <iframe
-                src="https://open.spotify.com/embed/track/2AVZJ4u8JOhcYBX5yHGdrX"
-                width="300"
-                height="80"
-                frameborder="0"
-                allowtransparency="true"
-                allow="encrypted-media"
-              ></iframe>{" "}
+              <Video
+                videoSrcURL="https://www.youtube.com/embed/0vH9FjGZ_Oc"
+                videoTitle="Official Music Video on YouTube"
+              />
               <br />
               <p style={{ padding: "1px", color: "white" }}>
                 {" "}
