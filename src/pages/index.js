@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import "./index.css"
-import Header from "../components/Header"
+import Header from "../components/header"
 function IndexPage() {
   const imageSize = {
     maxWidth: "600px",

@@ -1,6 +1,6 @@
 import React from "react"
 import ButYouCanFuckThem from "../components/photoComponents/butYouCanFkThem"
-import DudeHeMightJustBeSleeping from "../components/photoComponents/dudeHeMightJustBeSleeping"
+import DudeHeMightJustBeSleeping from "../components/photoComponents/DudeHeMightJustBeSleeping"
 import DudeYoureDoingGreat from "../components/photoComponents/DudeYoureDoingGreat"
 import FarmInDenmark from "../components/photoComponents/farmInDenmark"
 import GetBetterAtShit from "../components/photoComponents/getBetterAtShit"
