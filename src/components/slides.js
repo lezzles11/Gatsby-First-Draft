@@ -96,11 +96,6 @@ export default function Slides() {
           </button>
         </div>
       )}
-      {console.log(slide)}
-      {console.log(slide)}
-      {/* FIGURE OUT WHY TI WONT RENDER TO THE SECOND SLIE */}
-      {/* THIS IS WHEN YOU CLICK SET SLIDE  */}
-      {/* HYPTHOESIS:  */}
       {slide === 2 && (
         <div>
           <Problem />
