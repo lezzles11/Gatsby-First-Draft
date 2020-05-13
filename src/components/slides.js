@@ -97,6 +97,11 @@ export default function Slides() {
           </button>
         </div>
       )}
+      {console.log(slide)}
+      {console.log(slide)}
+      {/* FIGURE OUT WHY TI WONT RENDER TO THE SECOND SLIE */}
+      {/* THIS IS WHEN YOU CLICK SET SLIDE  */}
+      {/* HYPTHOESIS:  */}
       {slide === 2 && (
         <div>
           <Problem />
@@ -111,10 +116,9 @@ export default function Slides() {
       )}
       {slide === 3 && (
         <div>
-          {" "}
+          <button>hi</button>
           <Purpose />
           <button
-            style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
             onClick={() => setSlide(4)}
           >
