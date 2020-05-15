@@ -72,7 +72,36 @@ function Grateful() {
 }
 
 export default function Slides() {
-  const [slide, setSlide] = useState(0)
+  const [slideOne, setSlideOne] = useState(true)
+
+  const [slideTwo, setSlideTwo] = useState(false)
+
+  const [slideThree, setSlideThree] = useState(false)
+
+  const [slideFour, setSlideFour] = useState(false)
+
+  const [slideFive, setSlideFive] = useState(false)
+
+  const slideOneHandler = event => {
+    setSlideOne(false)
+    setSlideTwo(true)
+  }
+  const slideTwoHandler = event => {
+    setSlideTwo(false)
+    setSlideThree(true)
+  }
+  const slideThreeHandler = event => {
+    setSlideThree(false)
+    setSlideFour(true)
+  }
+  const slideFourHandler = event => {
+    setSlideFour(false)
+    setSlideFive(true)
+  }
+  const slideFiveHandler = event => {
+    setSlideFive(false)
+    setSlideOne(true)
+  }
   return (
     <div
       className="d-flex justify-content-center"
@@ -82,7 +111,7 @@ export default function Slides() {
         padding: `0 1.0875rem 1.45rem`,
       }}
     >
-      {slide === 0 && (
+      {slideOne === true && (
         <div>
           <EachSlide text="hi." />
 
@@ -90,49 +119,49 @@ export default function Slides() {
             className="d-flex justify-content-center"
             style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
-            onClick={() => setSlide(1)}
+            onClick={slideOneHandler}
           >
             hi
           </button>
         </div>
       )}
-      {slide === 1 && (
+      {slideTwo === true && (
         <div>
           <Problem />
           <button
             style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
-            onClick={() => setSlide(2)}
+            onClick={slideTwoHandler}
           >
             yeah
           </button>
         </div>
       )}
-      {slide === 2 && (
+      {slideThree === true && (
         <div>
           <Purpose />
           <button
             style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
-            onClick={() => setSlide(3)}
+            onClick={slideThreeHandler}
           >
             Earphones are in!
           </button>
         </div>
       )}{" "}
-      {slide === 3 && (
+      {slideFour === true && (
         <div>
           <Grateful />
           <button
             style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
-            onClick={() => setSlide(4)}
+            onClick={slideFourHandler}
           >
             playing song now, too!
           </button>
         </div>
       )}
-      {slide === 4 && (
+      {slideFive === true && (
         <div>
           <EachSlide text="(you can click through the pages now)" />
           <br />
@@ -146,7 +175,7 @@ export default function Slides() {
           <button
             style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
-            onClick={() => setSlide(0)}
+            onClick={slideFiveHandler}
           >
             restart
           </button>
