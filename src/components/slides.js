@@ -72,7 +72,7 @@ function Grateful() {
 }
 
 export default function Slides() {
-  const [slide, setSlide] = useState(1)
+  const [slide, setSlide] = useState(0)
   return (
     <div
       className="d-flex justify-content-center"
@@ -82,7 +82,7 @@ export default function Slides() {
         padding: `0 1.0875rem 1.45rem`,
       }}
     >
-      {slide === 1 && (
+      {slide === 0 && (
         <div>
           <EachSlide text="hi." />
 
@@ -90,49 +90,49 @@ export default function Slides() {
             className="d-flex justify-content-center"
             style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
-            onClick={() => setSlide(2)}
+            onClick={() => setSlide(1)}
           >
             hi
           </button>
         </div>
       )}
-      {slide === 2 && (
+      {slide === 1 && (
         <div>
           <Problem />
           <button
             style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
-            onClick={() => setSlide(3)}
+            onClick={() => setSlide(2)}
           >
             yeah
           </button>
         </div>
       )}
-      {slide === 3 && (
+      {slide === 2 && (
         <div>
           <Purpose />
           <button
             style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
-            onClick={() => setSlide(4)}
+            onClick={() => setSlide(3)}
           >
             Earphones are in!
           </button>
         </div>
       )}{" "}
-      {slide === 4 && (
+      {slide === 3 && (
         <div>
           <Grateful />
           <button
             style={{ textTransform: "lowercase" }}
             className="font6 button btn btn-outline-dark waves-effect"
-            onClick={() => setSlide(5)}
+            onClick={() => setSlide(4)}
           >
             playing song now, too!
           </button>
         </div>
       )}
-      {slide === 5 && (
+      {slide === 4 && (
         <div>
           <EachSlide text="(you can click through the pages now)" />
           <br />
@@ -142,7 +142,14 @@ export default function Slides() {
             <br />
             <br /> pictures were taken during the corona virus (a.k.a. SARS
             round 2) <br /> captions are from my journaling entries
-          </h6>
+          </h6>{" "}
+          <button
+            style={{ textTransform: "lowercase" }}
+            className="font6 button btn btn-outline-dark waves-effect"
+            onClick={() => setSlide(0)}
+          >
+            restart
+          </button>
         </div>
       )}
     </div>
