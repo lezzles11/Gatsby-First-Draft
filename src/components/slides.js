@@ -26,22 +26,25 @@ const Slides = () => {
       {slide === 3 && <SlideFour />}
 
       {slide === 4 && <SlideFive />}
-      {slide > 4 && (
+      {slide === 4 && (
         <button
           className="btn button btn-outline-dark waves-effect"
+          style={{ textTransform: "lowercase" }}
           onClick={() => setSlide(0)}
         >
           {" "}
-          restart
+          headphones are in and song on the bottom right is playing!
         </button>
       )}
-      <button
-        className="btn button btn-outline-dark waves-effect"
-        value={slide}
-        onClick={next}
-      >
-        Next
-      </button>
+      {slide < 4 && (
+        <button
+          className="btn button btn-outline-dark waves-effect"
+          value={slide}
+          onClick={next}
+        >
+          👍
+        </button>
+      )}
     </div>
   )
 }

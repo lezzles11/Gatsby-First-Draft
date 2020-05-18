@@ -8,6 +8,7 @@ import IMeanYouHaveYourOwnShit from "../components/photoComponents/iMeanYouHaveY
 import ImJustNervous from "../components/photoComponents/imJustNervous"
 import IWantToLiveOnAFarm from "../components/photoComponents/iWantToLiveOnAFarm"
 import LoveAsASkill from "../components/photoComponents/loveAsASkill"
+import Video from "../components/video"
 
 function KittySleeping({ imageSize }) {
   return (
@@ -212,6 +213,29 @@ function KittyNapping({ imageSize }) {
   )
 }
 
+function Piano({ imageSize }) {
+  return (
+    <div className="row">
+      <div className="col">
+        <div className="card-body">
+          <br /> <br /> <br /> <br /> <br /> <br /> <br />
+          <h3 className="font17 card-title text-center">keep on going</h3>
+        </div>
+      </div>{" "}
+      <div className="col">
+        <div>
+          <br /> <br />{" "}
+          <Video
+            height="250"
+            videoSrcURL="https://www.youtube.com/embed/KOxsZ5M2Mks"
+            videoTitle="Official Music Video on YouTube"
+          />
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function AfternoonPage() {
   const imageSize = {
     maxWidth: "600px",
@@ -237,6 +261,7 @@ function AfternoonPage() {
       <KittySleeping imageSize={imageSize} />
       <ForgetIt imageSize={imageSize} />
       <Notecard imageSize={imageSize} />
+      <Piano imageSize={imageSize} />
     </div>
   )
 }

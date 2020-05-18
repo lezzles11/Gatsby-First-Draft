@@ -61,6 +61,11 @@ function Header({ siteTitle }) {
         {page === 3 && <AfternoonPage />}
         {page === 4 && <NightPage />}
       </main>
+      <br />
+      <br /> <br />
+      <br />
+      <br />
+      <br />
       <div className="stickToBottom">
         <footer>
           <div className="row">
