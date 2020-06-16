@@ -2,68 +2,63 @@
 # Small Pleasures are a Big Deal :dark_sunglasses:
 Vision: The purpose of this project is to practice using gatsby, as well as ensure that I remind myself of the daily pleasures in everyday life. 
 
-
-## Index
-
-* [Purpose](#purpose)
-  * [Old Approach](#old-approach)
-  * [New Approach](#new-approach)
-* [Story](#story)
-	* [User Stories](#user-stories)
-	* [Sprint](#sprint) 	
-	* [Climax](#climax) 	
-* [Reflections](#reflections)
-* [Wishlist](#wishlist)
-* [Credits](#credits)
-* [License](#license)
-
 ## Purpose :rocket:
 Vision: The purpose of this project is to practice using gatsby, as well as ensure that I remind myself of the daily pleasures in everyday life. 
 
 ## Story 
-### Beginning 
+### 🧐 What's inside?
 1. Users will be able to look over the various images quickly. 
 2. Users will be able to play a song throughout the website. 
 3. Users will be able to navigate through the three different pages. 
 
-### Sprint 
-*This sprint was run from May 1 - May 10*
-*Daily stand-ups are crucial in creating accountability as well as ensure that the work processes are run smoothly - at the end of every sprint, developers should have something that is usable* 
+## Project Schedule
 
-May 5: 
-May 6: 
-May 8: 
-May 9: Organized the photos
-May 10: F
+|  Day | Deliverable | Status
+|---|---| ---|
+|Day 1| Project Description | Complete
+|Day 2| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
+|Day 6| Present | Complete
 
-### Climax 
-Installing 
+## Wireframes
 
-Common Errors: 
-- Redux
-1. In the reducer, case does not have the “”
-2. When creating store, make sure you type it as Redux.createStore(reducer)
-3. The format is define specific action (and function), reducer, then put it in the store 
+## Time/Priority Matrix 
 
 
+#### MVP 
 
-```
-bash
-┌───────────────┬────────────────────────────────── ─────────────────────────────┐
-│ High │  │
-├───────────────┼────────────────────────────────── ─────────────────────────────┤
-│ Package │  │
-├───────────────┼────────────────────────────────── ─────────────────────────────┤
-│ Dependency of │  │
-├───────────────┼────────────────────────────────── ─────────────────────────────┤
-│ Path │ │
-├───────────────┼────────────────────────────────── ─────────────────────────────┤
-│ More info │  │
-└───────────────┴────────────────────────────────── ─────────────────────────────┘
+- Pull dataf rom the 
 
-```
+#### PostMVP 
+
+
+
+## Functional Components
+
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Working on navigation | H | 3hrs| 4hrs | 4hrs |
+| Projects displayed properly| H | 3hrs| 4hrs | 4hrs |
+| Links/icons | H | 2hrs | 3hrs | 3hrs |
+| Styling | H | 2hrs | 4hrs | 4hrs |
+| Total | H | 16hrs| 24.5hrs | 24.5hrs |
+
+## Additional Libraries
+
+## Code Snippet
+
+
+## Issues and Resolutions
+
+**ERROR**:
+**RESOLUTION**: 
+
 
 ### Reflections
+
 #### What is one thing that I learned from doing this project?
 1. Make sure to block chunks of time to code (3-4 hours at a time) 
 2. 
