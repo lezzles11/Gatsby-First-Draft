@@ -46,7 +46,6 @@ Vision: The purpose of this project is to practice using gatsby, as well as ensu
 | Styling | H | 2hrs | 4hrs | 4hrs |
 | Total | H | 16hrs| 24.5hrs | 24.5hrs |
 
-## Additional Libraries
 
 ## Code Snippet
 
