@@ -7,6 +7,9 @@ import TheresSomePsychological from "../components/photoComponents/theresSomePsy
 import TryingToDoAlot from "../components/photoComponents/tryingToDoAlot"
 import YouAreDoingGreat from "../components/photoComponents/youAreDoingGreat"
 
+import Possible from "../components/photoComponents/possible"
+import Introspection from "../components/photoComponents/introspection"
+
 function Bench({ imageSize }) {
   return (
     <div className="row">
@@ -31,6 +34,41 @@ function Bench({ imageSize }) {
           </h3>
         </div>
       </div>
+    </div>
+  )
+}
+
+function SittingAlone({ imageSize }) {
+  return (
+    <div className="row">
+      {" "}
+      <div className="col">
+        <div style={imageSize}>
+          {" "}
+          <Introspection />
+        </div>
+      </div>
+      <div className="col">
+        <div className="card-body">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <br />
+          <br />
+
+          <br />
+          <h3 className="font17 card-title text-center">
+            It's important that we can always come back to this, no matter what
+            happens.
+          </h3>
+        </div>
+      </div>{" "}
     </div>
   )
 }
@@ -125,13 +163,11 @@ function Bamboo({ imageSize }) {
       <div className="col">
         <div className="card-body">
           <br />
-          <h3 className="font17 card-title text-center">
-            like, there’s some psychological shit going on that I don’t really
-            understand and I need to figure that shit out and also like figure
-            out how emotional people are as a whole. like, i know everyone’s
-            really emotional but like how emotional are we really, like how
-            fucked up am i?
-          </h3>
+          <br />
+          <br />
+          <br />
+          <br />
+          <h3 className="font17 card-title text-center">be more like water</h3>
         </div>
       </div>
     </div>
@@ -166,6 +202,32 @@ function Tree({ imageSize }) {
     </div>
   )
 }
+
+function ItsPossible({ imageSize }) {
+  return (
+    <div className="row">
+      <div className="col">
+        <div className="card-body">
+          <br />
+
+          <br />
+          <br />
+          <br />
+          <h3 className="font11 card-title text-center">
+            It’s strange, actually, if you think about it deeply. That we all
+            crave love, but are all afraid to love first.
+          </h3>
+        </div>
+      </div>
+      <div className="col">
+        <div style={imageSize}>
+          <Possible />
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function MorningPage() {
   const imageSize = {
     maxWidth: "600px",
@@ -185,7 +247,8 @@ function MorningPage() {
       <Tree imageSize={imageSize} />
       <Bamboo imageSize={imageSize} />
       <KittyHead imageSize={imageSize} />
-      <StevenAndKitty imageSize={imageSize} />
+      <SittingAlone imageSize={imageSize} />
+      <ItsPossible imageSize={imageSize} />
     </div>
   )
 }

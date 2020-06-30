@@ -8,6 +8,7 @@ import JustBeingMoreMyself from "../components/photoComponents/justBeingMoreMyse
 import JustLikeBreathe from "../components/photoComponents/justLikeBreathe"
 import JustLikeWhatever from "../components/photoComponents/justLikeWhatever"
 import JustTakeItEasy from "../components/photoComponents/justTakeItEasy"
+import Cozy from "../components/photoComponents/cozy"
 
 function Card({ text }) {
   return (
@@ -50,7 +51,7 @@ function WalkingNight({ imageSize }) {
           <br />
           <br />
           <h3 className="font11 card-title text-center">
-            Financial Independence!
+            We can take our time
           </h3>
         </div>
       </div>
@@ -81,6 +82,27 @@ function Organizing({ imageSize }) {
         <div style={imageSize}>
           {" "}
           <BeingTrueToMyself />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Coziness({ imageSize }) {
+  return (
+    <div className="row">
+      <div className="col">
+        <div style={imageSize}>
+          {" "}
+          <Cozy />
+        </div>
+      </div>
+      <div className="col">
+        <div className="card-body">
+          <br /> <br /> <br /> <br /> <br />
+          <h3 className="font17 card-title text-center">
+            So strange that all we need is to feel safe
+          </h3>
         </div>
       </div>
     </div>
@@ -235,7 +257,7 @@ function NightPage() {
       <Roses imageSize={imageSize} />
       <PrettyTree imageSize={imageSize} />
       <WalkingNight imageSize={imageSize} />
-      <StevenDyingHair imageSize={imageSize} />
+      <Coziness imageSize={imageSize} />
       <Organizing imageSize={imageSize} />
 
       <Baking imageSize={imageSize} />

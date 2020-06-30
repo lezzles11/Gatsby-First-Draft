@@ -9,7 +9,34 @@ import ImJustNervous from "../components/photoComponents/imJustNervous"
 import IWantToLiveOnAFarm from "../components/photoComponents/iWantToLiveOnAFarm"
 import LoveAsASkill from "../components/photoComponents/loveAsASkill"
 import Video from "../components/video"
+import LookMoreClosely from "../components/photoComponents/lookMoreClosely"
 
+import Wait from "../components/photoComponents/wait"
+
+function KittyNapping({ imageSize }) {
+  return (
+    <div className="row">
+      <div className="col">
+        <div style={imageSize}>
+          <DudeHeMightJustBeSleeping />
+        </div>
+      </div>
+      <div className="col">
+        <div className="card-body">
+          <br />
+          <br />
+
+          <br />
+          <br />
+          <br />
+          <h3 className="font11 card-title text-center">
+            it's in the little things
+          </h3>
+        </div>
+      </div>
+    </div>
+  )
+}
 function KittySleeping({ imageSize }) {
   return (
     <div className="row">
@@ -27,7 +54,7 @@ function KittySleeping({ imageSize }) {
           <br />
           <br />
           <h3 className="font11 card-title text-center">
-            Dude, he might just be sleeping
+            it's in the little things
           </h3>
         </div>
       </div>
@@ -132,17 +159,18 @@ function WhoAmI({ imageSize }) {
       <div className="col">
         <div className="card-body">
           <br /> <br /> <br />
-          <br />
           <h3 className="font17 card-title text-center">
-            i mean, you have your own shit, too. this is how society works, i
-            guess.
+            And so it is fascinating because we all fundamentally know these
+            things, but we forget.
+            <br />
+            <br /> We forget.
           </h3>
         </div>
       </div>{" "}
       <div className="col">
         <div style={imageSize}>
           {" "}
-          <IMeanYouHaveYourOwnShit />
+          <LookMoreClosely />
         </div>
       </div>
     </div>
@@ -164,7 +192,7 @@ function Poster({ imageSize }) {
           <br />
           <br />
           <br />
-          <h3 className="font17 card-title text-center">I'm just nervous.</h3>
+          <h3 className="font17 card-title text-center">History is now</h3>
         </div>
       </div>
     </div>
@@ -192,21 +220,21 @@ function StevenLunch({ imageSize }) {
   )
 }
 
-function KittyNapping({ imageSize }) {
+function Waiting({ imageSize }) {
   return (
     <div className="row">
       <div className="col">
         <div className="card-body">
           <br /> <br /> <br /> <br /> <br /> <br /> <br />
-          <h3 className="font17 card-title text-center">
-            I still want to live on a farm or something.{" "}
-          </h3>
+          <br /> <br />
+          <br /> <br /> <br />
+          <h3 className="font17 card-title text-center">I wish I knew</h3>
         </div>
       </div>{" "}
       <div className="col">
         <div style={imageSize}>
           {" "}
-          <IWantToLiveOnAFarm />
+          <Wait />
         </div>
       </div>
     </div>
@@ -256,12 +284,12 @@ function AfternoonPage() {
       <Playlist imageSize={imageSize} />
       <Eggs imageSize={imageSize} />
       <StevenLunch imageSize={imageSize} />
-      <KittyNapping imageSize={imageSize} />
+
+      <Waiting imageSize={imageSize} />
 
       <KittySleeping imageSize={imageSize} />
       <ForgetIt imageSize={imageSize} />
       <Notecard imageSize={imageSize} />
-      <Piano imageSize={imageSize} />
     </div>
   )
 }
